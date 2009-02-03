@@ -1,1 +1,28 @@
-This is my custom vim setup. Move vimrc to ~/.vimrc. The rest of the files should be in ~/.vim
+OH MY VIM! :)
+
+My personal Vim setup. Using GitHub to sync between home/work/netbook. Feel free to use and/or fork your own.
+
+Included plugins:
+* rails.vim
+* snippets.vim
+* rspec.vim
+* cucumber.vim
+* git.vim
+* tComment.vim
+* FuzzyFinder and FuzzyFinder Textmate (needs Ruby)
+* NERD Tree
+
+Works best if you don't already have any Vim setup.
+
+git clone git://github.com/sermoa/ohmyvim.git ~/.vim
+
+Set the .vimrc file as a symlink to get updates.
+
+ln -s ~/.vim/vimrc ~/.vimrc
+ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Periodically, to keep up to date:
+
+cd ~/.vim
+git pull
+
