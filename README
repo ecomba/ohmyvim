@@ -26,3 +26,39 @@ Periodically, to keep up to date:
 cd ~/.vim
 git pull
 
+
+
+Useful commands/shortcuts
+
+,t - open the fuzzy finder search
+,b - fuzzy finder buffer - helps you switch between open files
+gcc - toggle comments
+
+
+Rails Vim
+gf - go to file eg ApplicationController - when your cursor is on it  
+:A - go to the alternate file (spec/code)
+:Rake - run specs
+
+
+NERD tree
+,d - toggle the NERD tree
+o - expand directory
+O - recursive expand
+x - close parent directory
+p - go to parent
+P - go to root
+
+o - open file in last window
+i - open in a horizontal split
+s - open in a vertical split
+
+
+Git Vim
+,gs - git status
+,ga - add current file
+,gA - add file under cursor (eg in a git status)
+,gc - git commit
+
+
+
