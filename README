@@ -32,7 +32,7 @@ Useful commands/shortcuts
 
 ,t - open the fuzzy finder search
 ,b - fuzzy finder buffer - helps you switch between open files
-gcc - toggle comments
+gc - toggle comments
 
 
 Rails Vim
@@ -48,6 +48,8 @@ O - recursive expand
 x - close parent directory
 p - go to parent
 P - go to root
+u - go up a directory
+C - set current directory to be the root.
 
 o - open file in last window
 i - open in a horizontal split
