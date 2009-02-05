@@ -11,6 +11,7 @@ Included plugins:
 * tComment.vim
 * FuzzyFinder and FuzzyFinder Textmate (needs Ruby)
 * NERD Tree
+* surround.vim
 
 Works best if you don't already have any Vim setup.
 
@@ -70,3 +71,8 @@ Git Vim
 ,gp - git push
 
 
+Surround.vim
+Visually select the text you wish to surround
+Type s and then the thing you want to surround with
+e.g {, (, <p>, <p class='amazing'>
+It is super-clever and will insert the appropriate close for you.
