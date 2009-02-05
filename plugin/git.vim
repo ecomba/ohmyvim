@@ -13,6 +13,7 @@ nnoremap <Leader>gl :GitLog<Enter>
 nnoremap <Leader>ga :GitAdd<Enter>
 nnoremap <Leader>gA :GitAdd <cfile><Enter>
 nnoremap <Leader>gc :GitCommit<Enter>
+nnoremap <Leader>gC :GitCommit -a<Enter>
 nnoremap <Leader>gp :GitPush<Enter>
 nnoremap <Leader>gb :GitBlame<Enter>
 

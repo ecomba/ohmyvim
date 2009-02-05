@@ -60,8 +60,8 @@ Git Vim
 ,gs - git status
 ,ga - add current file
 ,gA - add file under cursor (eg in a git status)
-:GitAdd . - add all files (is there a shortcut for this??)
 ,gc - git commit
+,gC - git commit -a (add all outstanding files and commit)
 ,gp - git push
 
 
