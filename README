@@ -36,24 +36,29 @@ gc - toggle comments
 
 
 Rails Vim
-gf - go to file eg ApplicationController - when your cursor is on it  
+gf - go to file referenced under the cursor (even the class of a variable!)
 :A - go to the alternate file (spec/code)
 :Rake - run specs
 
 
 NERD tree
-,d - toggle the NERD tree
+,d - toggle the NERD tree (drawer)
 o - expand directory
 O - recursive expand
 x - close parent directory
+
 p - go to parent
 P - go to root
 u - go up a directory
 C - set current directory to be the root.
 
+r - refresh
+
 o - open file in last window
 i - open in a horizontal split
 s - open in a vertical split
+
+? - toggle help for more commands
 
 
 Git Vim
