@@ -15,7 +15,7 @@ set directory=~/.vim/backups,~/.tmp,~/tmp,/var/tmp,/tmp
 
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
-set backspace=indent,eol,start hello
+set backspace=indent,eol,start 
  
 " File-type highlighting and configuration.
 " Run :filetype (without args) to see what you may have
