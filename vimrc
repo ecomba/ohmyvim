@@ -58,5 +58,7 @@ set autowrite  " Writes on make/shell commands
 set showmatch
 set laststatus=2
 
-imap jj <Esc>
-imap hh <Esc>
+imap jj <Esc>jj
+imap kk <Esc>kk
+imap hh <Esc>hh
+imap ll <Esc>ll
