@@ -15,7 +15,7 @@ set directory=~/.vim/backups,~/.tmp,~/tmp,/var/tmp,/tmp
 
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
-set backspace=indent,eol,start
+set backspace=indent,eol,start hello
  
 " File-type highlighting and configuration.
 " Run :filetype (without args) to see what you may have
@@ -57,3 +57,6 @@ set clipboard+=unnamed  " Yanks go on clipboard instead.
 set autowrite  " Writes on make/shell commands
 set showmatch
 set laststatus=2
+
+imap jj <Esc>
+imap hh <Esc>
