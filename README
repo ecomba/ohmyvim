@@ -65,9 +65,8 @@ s - open in a vertical split
 Git Vim
 ,gs - git status
 ,ga - add current file
-,gA - add file under cursor (eg in a git status)
+,gA - add all outstanding files (non-standard - i changed this!)
 ,gc - git commit
-,gC - git commit -a (add all outstanding files and commit)
 ,gp - git push
 
 
