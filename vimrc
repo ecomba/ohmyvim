@@ -68,5 +68,5 @@ ruby << EOF
   system(command)
 EOF
 endfunction
-map <F7> :call RunRspec()<cr>
+map <F7> :w<CR> :call RunRspec()<cr>
 
