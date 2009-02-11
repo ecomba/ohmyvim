@@ -58,4 +58,15 @@ set autowrite  " Writes on make/shell commands
 set showmatch
 set laststatus=2
 
-imap jj <Esc>
+" Run Rspec for the current spec file
+function! RunRspec()
+ruby << EOF
+  buffer = VIM::Buffer.current
+  spec_file = VIM::Buffer.current.name
+  command = "ruby ~/.vim/bin/run_rspec.rb #{spec_file}"
+  print "Running Rspec for #{spec_file}. Results will be displayed in Firefox."
+  system(command)
+EOF
+endfunction
+map <F7> :call RunRspec()<cr>
+
