@@ -15,3 +15,4 @@ iab <silent> des describe "!@method@!" do<CR>!@its@!<CR>end<Esc>2k0;<C-R>=Eatcha
 iab <silent> its it "should !@should@!" do<CR>!@something@!<CR>end<CR><Esc>3k0;<C-R>=Eatchar('\s')<CR>
 iab <silent> desit describe !@Class@!, '!@method@!' do<CR>it "should !@should@!" do<CR>!@stuff@!<CR>end<CR>end<CR><Esc>5kO<Esc>;<C-R>=Eatchar('\s')<CR>
 iab <silent> bef before(:each) do<CR>!@something@!<CR>end<CR><Esc>3k0;<C-R>=Eatchar('\s')<CR>
+iab <silent> req require File.dirname(__FILE__) + '/../spec_helper'<CR>
