@@ -70,3 +70,4 @@ EOF
 endfunction
 map <F7> :w<CR> :call RunRspec()<cr>
 
+au GUIEnter * :NERDTree
