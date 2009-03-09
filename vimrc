@@ -69,5 +69,6 @@ ruby << EOF
 EOF
 endfunction
 map <F7> :w<CR> :call RunRspec()<cr>
+map <F6> :A<CR> 
 
 au GUIEnter * :NERDTree
