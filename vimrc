@@ -36,7 +36,6 @@ set smarttab
 set shiftwidth=2
 set autoindent
 set expandtab
-set backspace=start,indent
 autocmd FileType make     set noexpandtab
 autocmd FileType python   set noexpandtab
 set ruler
