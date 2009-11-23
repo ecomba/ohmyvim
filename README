@@ -12,6 +12,7 @@ Included plugins:
 * FuzzyFinder and FuzzyFinder Textmate (needs Ruby)
 * NERD Tree
 * surround.vim
+* ack.vim
 
 Works best if you don't already have any Vim setup.
 
@@ -76,3 +77,8 @@ Visually select the text you wish to surround
 Type s and then the thing you want to surround with
 e.g {, (, <p>, <p class='amazing'>
 It is super-clever and will insert the appropriate close for you.
+
+
+Ack.vim
+:Ack followed by the text you wish to ack for. It's fairly obvious how to navigate the results. Note that you will need ack installed.
+
