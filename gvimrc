@@ -1,7 +1,7 @@
-set lines=45 columns=120
+set lines=60 columns=120
 set guioptions-=T
 set guioptions-=L
 set guioptions-=l
 set guioptions-=b
 set guioptions-=r
-colorscheme ir_black_mod
+colorscheme Digerati_Vim_Colorscheme_by_hcalves
